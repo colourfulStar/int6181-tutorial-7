@@ -1,3 +1,4 @@
+# This function validates a password based on length, character types, and no spaces
 def validate_password(password):
     if not isinstance(password, str):
         print("Password must be a string")
